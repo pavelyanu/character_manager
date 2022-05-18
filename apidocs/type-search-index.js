@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"org.mff","l":"Character"},{"p":"org.mff","l":"Server.ClinentHandler"},{"p":"org.mff","l":"Database"},{"p":"org.mff","l":"Main"},{"p":"org.mff","l":"Message"},{"p":"org.mff","l":"MessageType"},{"p":"org.mff","l":"PlayerClient"},{"p":"org.mff","l":"Server"}];updateSearchResults();

@@ -1,0 +1,24 @@
+-classpath
+'/home/pavel/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar:/home/pavel/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/home/pavel/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar'
+-encoding
+'UTF-8'
+-private
+-source
+'17'
+-sourcepath
+'/home/pavel/dev/university/year2/s1/java/latest_manager/character_manager/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/pavel/dev/university/year2/s1/java/latest_manager/character_manager/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'character_manager 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'character_manager 1.0-SNAPSHOT API'
