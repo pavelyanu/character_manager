@@ -1,0 +1,53 @@
+
+<body>
+    <p>
+        The main package containing all the classes.
+    </p>
+    <p>
+	    The package contans two runnable classes: {@link org.mff.Server}
+	    and {@link org.mff.PlayerClient} as well as class {@link org.mff.Main}
+	    which takes either "client" or "server" to run them respectively.
+		Package also contains auxiliary classes.
+    </p>
+
+    <h4>Server and Database</h4>
+    <p>
+		{@link org.mff.Server} is a class responsible for allocating new
+		thread for the clients as well as governing communication between clients
+		and the server, which in turn communicates with database.
+    </p>
+    <p>
+        {@link org.mff.Database} is a class responsible for managing compain data
+		and compain metadata. Compain data contains player character, while compain
+		meta data contains player - character relations.
+    </p>
+    <h4>Message and MessageType</h4>
+    <p>
+		{@link org.mff.Message} is a class representing a unit of communication between a server and a
+		client. Message contains the String payload and MessageType message type.
+    </p>
+    <p>
+		{@link org.mff.MessageType} is an enum representing all possible types of
+		messages.
+    </p>
+
+    <h4>PlayerClient and Character</h4>
+    <p>
+		{@link org.mff PlayerClient} is a class responsible for client side server client communication
+		as well as client user interface. The command line user interface uses following commands:
+		auth - to reauthenticate, pick - to pick a character, view - to view character, 
+		set - to set a field on a character sheet, help - to see the help message.
+    </p>
+    <p>
+		{@link org.mff Character} is a class representing a player character. It has all the fields
+		which a character in a DnD game would have as well as ability to set certain field. When
+		one field is set all the field depending on it are updated.
+    </p>
+
+    <h4>External libraries</h4>
+    <p>
+		The package uses Jackson library to convert Character class to JSON and back whenever such 
+		conversion is needed.
+    </p>
+	
+</body>

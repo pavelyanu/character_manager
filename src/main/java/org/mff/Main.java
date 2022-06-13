@@ -1,4 +1,7 @@
 package org.mff;
+/**
+ * Represents entry point into the program.
+ */
 public class Main {
 	public static void main(String[] args) {
 		if (args.length > 0) {
