@@ -6,14 +6,14 @@
 -source
 '17'
 -sourcepath
-'/home/pavel/dev/university/year2/s1/java/latest_manager/character_manager/src/main/java'
+'/home/pavel/dev/university/year2/s1/java/character_manager/src/main/java'
 -author
 -bottom
 'Copyright &#169; 2022. All rights reserved.'
 -charset
 'UTF-8'
 -d
-'/home/pavel/dev/university/year2/s1/java/latest_manager/character_manager/target/site/apidocs'
+'/home/pavel/dev/university/year2/s1/java/character_manager/target/site/apidocs'
 -docencoding
 'UTF-8'
 -doctitle
