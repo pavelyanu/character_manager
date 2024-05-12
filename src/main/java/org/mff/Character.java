@@ -180,7 +180,8 @@ public class Character implements Serializable{
      * Updates proficiency level in accordance with character level.
      */
     private void updateProfLevel() {
-        profLevel = (int) Math.ceil(level / 4) + 1;
+        double divided = (double) level / 4;
+        profLevel = (int) Math.ceil(divided) + 1;
     }
 
     /**
@@ -189,7 +190,8 @@ public class Character implements Serializable{
      * @return      the stat modifier
      */
     private int statValToMod(int val) {
-        return (int) Math.ceil(val / 2) - 5;
+        double divided = (double) val / 2;
+        return (int) Math.ceil(divided) - 5;
     }
 
     /**
@@ -325,7 +327,7 @@ public class Character implements Serializable{
      * @throws Exception
      */
     public void setSkillProf(String skill, int prof) throws Exception {
-        if (!skill.contains(skill)) throw new Exception("No such skill");
+        if (!skills.contains(skill)) throw new Exception("No such skill");
         statVals.put(skill, prof);
         updateSkillMods();
     }
